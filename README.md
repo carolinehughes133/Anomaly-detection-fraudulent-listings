@@ -1,7 +1,7 @@
 # Anomaly-detection-fraudulent-listings
-Flagging suspicious secondhand fashion seller listings<br /><br />
+Flagging suspicious secondhand fashion seller listings<br />
 
-An anomaly/outlier = a data point in the data set that differs significantly from the other data or observations.
+Anomaly/outlier = a data point in the data set that differs significantly from the other data or observations.
 
 # Files:<br /><br />
 **anomaly_detection_for_fraudulent_listings.ipynb**: jupyter notebook with project code <br /><br />
