@@ -11,7 +11,7 @@ retail selling price for the anomaly detection to determine if the seller's list
 
 # Project Description:
 This notebook uses two anomaly detection methods to flag outliers in the seller listings dataset. <br /><br />
-1.**Isolation forest:** An Isolation Forest introduces (an ensemble of) binary trees that recursively generate partitions by randomly selecting a feature and then randomly selecting a split value for the feature. The partitioning process will continue until it separates all the data points from the rest of the samples. To detect an anomaly the Isolation Forest calculates the average path length (the number of splits required to isolate a sample) of all the trees for a given instance and uses this to determine if it is an anomaly (shorter average path lengths indicate anomalies)<br /><br />
+1. **Isolation forest:** An Isolation Forest introduces (an ensemble of) binary trees that recursively generate partitions by randomly selecting a feature and then randomly selecting a split value for the feature. The partitioning process will continue until it separates all the data points from the rest of the samples. To detect an anomaly the Isolation Forest calculates the average path length (the number of splits required to isolate a sample) of all the trees for a given instance and uses this to determine if it is an anomaly (shorter average path lengths indicate anomalies)<br /><br />
 2. **Zscore**: The Z-score tells us how many standard deviations away a given observation is from the mean.  <br /><br />
 
 The notebook flags anomalous values in the seller return rate, seller rating, and the listing price of the product.<br /><br />
