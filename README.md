@@ -17,6 +17,6 @@ This notebook uses two anomaly detection methods to flag outliers in the seller 
 The notebook flags anomalous values in the seller return rate, seller rating, and the listing price of the product.<br /><br />
 
 # Recommendations:
-The output file 'joined_df' could be used to flag suspicious listings in the app. I recommend investigating/flagging the listings flagged as outliers by the isolation forest method (anomaly_IF = TRUE) where the seller has either a significantly higher return rate than avg listings (anomaly_rr_zscore = TRUE) OR a significantly lower seller rating than the avg seller (anomaly_rating_zscore = TRUE). Consider prioritizing investigation on listings with significantly higher listing prices than the avg retail listing price for that brand/product combination (sig_high_list_price = TRUE)
+The output file 'joined_df' could be used to flag suspicious listings in the app. I recommend investigating the listings flagged as outliers by the isolation forest method (anomaly_IF = TRUE) where the seller has either a significantly higher return rate than avg listings (anomaly_rr_zscore = TRUE) OR a significantly lower seller rating than the avg seller (anomaly_rating_zscore = TRUE). Consider prioritizing investigation on listings with significantly higher listing prices than the avg retail listing price for that brand/product combination (sig_high_list_price = TRUE)
 
 
